@@ -63,6 +63,7 @@ cometa=turtle.Turtle()
 colors=['red', 'purple', 'blue', 'green', 'yellow', 'orange', 'pink','light blue']
 for i in range (10):
     for i in range (2):
+        cometa.color(colors[i%8])
         cometa.goto(120,-185)
         cometa.forward(100)
         cometa.right(60)
