@@ -60,7 +60,7 @@ miguel.forward(135)
 #Cometa
 import turtle
 cometa=turtle.Turtle()
-colors=['red', 'purple', 'blue', 'green', 'yellow', 'orange', 'pink','light blue']
+colors=['red', 'purple']
 for i in range (10):
     for i in range (2):
         cometa.color(colors[i%8])
